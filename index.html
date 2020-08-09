@@ -47,10 +47,7 @@
 	  <a class="navbar-brand" href="#">
 	    <img src="components/images folder/logo.png" />
 	</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="form-group col-6">
+	 <div class="form-group col-6">
 		<form novalidate="novalidate" class="simple_form search" action="/" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
 			  <div class="search-form-control form-group">
 			    <input class="form-control string required" type="text" name="search[query]" id="search_query" />
@@ -61,8 +58,10 @@
 		</form>
 
 	  </div>
-
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse justify-content-right" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item active">
 	        <a class="nav-link" href="#">Cómo funciona</a>
@@ -271,7 +270,7 @@
 <!-- planes -->
 	<h2 class="text-center mt-5">Elegí el plan a tu medida</h2>
 	<div class="container mt-4 mb-4" >
-		<div class="row" id="prices" >
+		<div class="row justify-content-center" id="prices" >
 			<div class="columns col-12 col-md-4">
 			  <ul class="precio">
 			    <li class="header">Semanal</li>
@@ -307,8 +306,7 @@
 		<div class="jumbotron border">
 		  <h1 class="display-4">No te quedes con las ganas</h1>
 		  <p class="lead">¿Te interesa conocer más? Probá una clase gratis con uno de nuestros profesores. Hacé la prueba y nos contas!</p>
-		  <hr class="my-4"><!-- prueba gratis -->
-
+		  <hr class="my-4">
 		  <p>Sin costos ocultos, registrate y probá una clase sin cargo</p>
 		  <a class="btn btn-flat btn-lg" href="#" role="button"> Empezar</a>
 		</div>
@@ -319,10 +317,10 @@
 	<div class="container-fluid mb-5" >
 		<div class="row">
 			<div class="col-12 col-md-5">
-				<div id="forms" class="container-fluid d-flex justify-content-center bg-white border pt-3 pb-3 pr-2 pl-2 mt-5">
+				<div id="forms" class="container-fluid d-flex justify-content-center bg-white border pt-3 pb-3  mt-5">
 					<div class="">
 						<h1 class="text-center mb-3">Ingresá a tu cuenta</h1>
-						<div class="row d-flex justify-content-center ">
+						<div class="row d-flex justify-content-center pl-2 pr-2">
 							<div class="col-12 col-sm-8 ">
 								<form id="formLogIn">
 								  <div class="form-group">
@@ -337,7 +335,7 @@
 								  </div>
 								  <div class="form-group form-check">
 								    <input type="checkbox" class="form-check-input" id="checkbox">
-								    <label class="form-check-label" for="checkbox">Recordar mi cuenta en este dispositivo</label>
+								    <label class="form-check-label font-weight-light" for="checkbox">Recordar mi cuenta en este dispositivo</label>
 								  </div>
 								  <button type="submit" class="btn btn-primary">Ingresar</button>
 								</form>
