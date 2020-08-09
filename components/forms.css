@@ -1,0 +1,59 @@
+
+
+.container-fluid {
+	width: 90%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.col-12 {
+	padding: 0px;
+}*/
+
+/* precios*/
+.columns {
+	margin: 0px;
+}
+
+.precio {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 6px;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.precio:hover {
+  box-shadow: 0px 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.precio .header {
+  background-color: #ce0000d4;
+  color: white;
+  font-size: 25px;
+}
+
+.precio li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.precio .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.jumbotron {
+    max-width: 700px;
+}
+
+#prices .col-12 {
+	max-width: 80%;
+}
+
+#prices .row {
+	justify-content: center;
+}
